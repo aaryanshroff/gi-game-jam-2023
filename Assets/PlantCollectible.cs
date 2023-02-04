@@ -9,6 +9,7 @@ public class PlantCollectible : MonoBehaviour
     public GameObject plantText;
     void OnTriggerEnter2D(Collider2D other)
    {
+    // not working vvvv :/
         plantText = GameObject.Find("PlantText");
         plantText.GetComponent<Text>().text = "Press H";
        Debug.Log("Object that entered the trigger : " + other);
