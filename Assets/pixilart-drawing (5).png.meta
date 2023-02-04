@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 30ca603b7eb15e94490626e9d1e29d70
+guid: c0bd5db8a84a23449acb76cc9964ffcd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,8 +69,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toadd_0
+      name: pixilart-drawing (5)_0
       rect:
         serializedVersion: 2
-        x: 400
-        y: 50
-        width: 750
-        height: 1550
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07d3997b1d7ea39409687960ded13fb7
-      internalID: -408087372
+      spriteID: 414bf4f1b6317674c915f0715d43838b
+      internalID: -843414042
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      toadd_0: -408087372
+      pixilart-drawing (5)_0: -843414042
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

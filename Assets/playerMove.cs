@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerMove : MonoBehaviour
 {
-    public float MovementSpeed = 20f;
+    public float MovementSpeed = 10f;
     public Rigidbody2D rb;
     private Vector2 moveDirection;
 
@@ -33,9 +33,9 @@ public class playerMove : MonoBehaviour
 
         if (moveDirection.x < 0)
         {
-            transform.localScale = new Vector2(-0.05f, 0.05f);
+            transform.localScale = new Vector2(-2f, 2f);
         }
         else if (moveDirection.x > 0)
-            transform.localScale = new Vector2(0.05f, 0.05f);
+            transform.localScale = new Vector2(2f, 2f);
     }
 }
