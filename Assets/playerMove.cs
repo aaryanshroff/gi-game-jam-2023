@@ -10,6 +10,8 @@ public class playerMove : MonoBehaviour
 
     private void Update()
     {
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -13f, 13f),
+            Mathf.Clamp(transform.position.y, -6f, 10f), transform.position.z);
         ProcessInputs();
     }
 
