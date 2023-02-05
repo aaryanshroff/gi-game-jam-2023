@@ -41,15 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: grass gray
+    uniqueID: 3296672767
+    locked: 0
+  - name: grass
+    uniqueID: 1558306791
+    locked: 0
+  - name: overlay gray
+    uniqueID: 1015246315
+    locked: 0
+  - name: test
+    uniqueID: 1603552009
+    locked: 0
+  - name: overlay
+    uniqueID: 3264885609
+    locked: 0
   - name: Player
     uniqueID: 2116263535
     locked: 0
   - name: Book Manual
     uniqueID: 1758701771
-    locked: 0
-  - name: overlay
-    uniqueID: 3264885609
-    locked: 0
-  - name: Background
-    uniqueID: 3296672767
     locked: 0

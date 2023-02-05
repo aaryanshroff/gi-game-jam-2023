@@ -605,7 +605,7 @@ TextureImporter:
       dirt3,1: -1355076814
       grass1,1: 1418460302
       grass3,3: -631866172
-      dirt1,3: -1478451777
+      dirt3,3: 1280631319
       grass2,2: 1206613499
       grass3,2: -2013206025
       grass0: -424474094
@@ -620,7 +620,7 @@ TextureImporter:
       dirt0: 172037848
       grass1,2: -641839539
       dirt2,3: -1667072583
-      dirt3,3: 1280631319
+      dirt1,3: -1478451777
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
