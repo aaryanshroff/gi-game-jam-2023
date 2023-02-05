@@ -12,16 +12,16 @@ public class Timer : MonoBehaviour
     public float timeRemaining = 10;
     public bool timerIsRunning = false;
     public GameObject hourglass;
-    public GameObject appleseeds;
-    public GameObject appletree;
+    public GameObject seed;
+    public GameObject tree;
 
     private void Start()
     {
         // Starts the timer automatically
         timerIsRunning = true;
         hourglass.SetActive(true);
-        appleseeds.SetActive(true);
-        appletree.SetActive(false);
+        seed.SetActive(true);
+        tree.SetActive(false);
     }
 
     void Update()
@@ -39,8 +39,8 @@ public class Timer : MonoBehaviour
                 timeRemaining = 0;
                 timerIsRunning = false;
                 hourglass.SetActive(false);
-                appleseeds.SetActive(false);
-                appletree.SetActive(true);
+                seed.SetActive(false);
+                tree.SetActive(true);
             }
         }
     }
