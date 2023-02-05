@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Unity.Mathematics;
+
 
 public class Timer : MonoBehaviour
 {
@@ -21,13 +23,13 @@ public class Timer : MonoBehaviour
         {
             if (timeRemaining > 0)
             {
-                timeRemaining -= Time.deltaTime;
-                timeRemaining = (int)timeRemaining;
-                countdownText.text = timeRemaining.ToString();
+                timeRemaining -= (Time.deltaTime);
+                countdownText.text = (Mathf.Round(timeRemaining)).ToString();
             }
             else
             {
-                countdownText.text = timeRemaining.ToString();
+                                countdownText.text = timeRemaining.ToString();
+
                 Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 timerIsRunning = false;
