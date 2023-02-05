@@ -2958,7 +2958,7 @@ GameObject:
   - component: {fileID: 1354829136}
   - component: {fileID: 1354829135}
   - component: {fileID: 1354829138}
-  - component: {fileID: 1354829137}
+  - component: {fileID: 1354829139}
   m_Layer: 0
   m_Name: Cherry
   m_TagString: Untagged
@@ -3033,19 +3033,6 @@ Transform:
   m_Father: {fileID: 60510607}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1354829137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1354829134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51425c3e962e4421cab44e79c59dd23b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plantText: {fileID: 0}
 --- !u!61 &1354829138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3072,6 +3059,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1354829139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354829134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d142e44653bfa46b4c68bd56f18605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownText: {fileID: 885873179}
+  timeRemaining: 10
+  timerIsRunning: 0
 --- !u!1 &1551315875
 GameObject:
   m_ObjectHideFlags: 0
