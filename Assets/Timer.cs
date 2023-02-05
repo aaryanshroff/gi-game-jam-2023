@@ -11,11 +11,13 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI countdownText;
     public float timeRemaining = 10;
     public bool timerIsRunning = false;
+    public GameObject hourglass;
 
     private void Start()
     {
         // Starts the timer automatically
         timerIsRunning = true;
+        hourglass.SetActive(true);
     }
     void Update()
     {
@@ -28,11 +30,10 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                                countdownText.text = timeRemaining.ToString();
-
                 Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 timerIsRunning = false;
+                hourglass.SetActive(false);
             }
         }
     }
