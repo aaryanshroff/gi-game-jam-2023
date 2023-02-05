@@ -21,6 +21,7 @@ public class PlantCollectible : MonoBehaviour
    }
 
    void OnTriggerExit2D(Collider2D other) {
+    plantText.text = "";
     isInTrigger = false;
    }
 
