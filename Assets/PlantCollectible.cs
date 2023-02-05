@@ -7,7 +7,9 @@ using TMPro;
 public class PlantCollectible : MonoBehaviour
 {
     public TextMeshProUGUI plantText;
+    public TextMeshProUGUI healthText;
     public bool isInTrigger = false;
+    public int health = 0;
     void OnTriggerEnter2D(Collider2D other)
    {
     // not working vvvv :/
@@ -23,8 +25,10 @@ public class PlantCollectible : MonoBehaviour
 
    void Update() {
         if (isInTrigger && Input.GetKeyDown("h")) {
-           Debug.Log("Harvesting...");
+           Debug.Log($"Harvesting... you got {health} health");
             gameObject.SetActive(false);
+            string[] words = healthText.text.Split(' ');
+            healthText.text = $"Health: {int.Parse(words[1]) + health}";
         }
 
    }
