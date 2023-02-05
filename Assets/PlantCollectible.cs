@@ -8,6 +8,7 @@ public class PlantCollectible : MonoBehaviour
 {
     public TextMeshProUGUI plantText;
     public TextMeshProUGUI healthText;
+    public GameObject healthBar;
     public bool isInTrigger = false;
     public int health = 0;
     void OnTriggerEnter2D(Collider2D other)
@@ -29,6 +30,7 @@ public class PlantCollectible : MonoBehaviour
             gameObject.SetActive(false);
             string[] words = healthText.text.Split(' ');
             healthText.text = $"Health: {int.Parse(words[1]) + health}";
+            healthBar.GetComponent<HealthBar>().SetHealth(int.Parse(words[1]) + health);
         }
 
    }
