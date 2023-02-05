@@ -3017,6 +3017,8 @@ GameObject:
   m_Component:
   - component: {fileID: 755012347}
   - component: {fileID: 755012348}
+  - component: {fileID: 755012350}
+  - component: {fileID: 755012349}
   m_Layer: 0
   m_Name: orange tree
   m_TagString: Untagged
@@ -3091,6 +3093,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &755012349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755012346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51425c3e962e4421cab44e79c59dd23b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantText: {fileID: 2021694405}
+  isInTrigger: 0
+--- !u!61 &755012350
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755012346}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2}
+  m_EdgeRadius: 0
 --- !u!1 &885873177
 GameObject:
   m_ObjectHideFlags: 0
@@ -3745,6 +3787,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1304052691}
   - component: {fileID: 1304052692}
+  - component: {fileID: 1304052694}
+  - component: {fileID: 1304052693}
   m_Layer: 0
   m_Name: apple tree
   m_TagString: Untagged
@@ -3819,6 +3863,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1304052693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304052690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51425c3e962e4421cab44e79c59dd23b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantText: {fileID: 2021694405}
+  isInTrigger: 0
+--- !u!61 &1304052694
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304052690}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2}
+  m_EdgeRadius: 0
 --- !u!1 &1354829134
 GameObject:
   m_ObjectHideFlags: 0
@@ -3831,7 +3915,6 @@ GameObject:
   - component: {fileID: 1354829135}
   - component: {fileID: 1354829138}
   - component: {fileID: 1354829139}
-  - component: {fileID: 1354829140}
   m_Layer: 0
   m_Name: apple seed
   m_TagString: Untagged
@@ -3950,19 +4033,6 @@ MonoBehaviour:
   hourglass: {fileID: 72926743}
   seed: {fileID: 1354829134}
   tree: {fileID: 1304052690}
---- !u!114 &1354829140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1354829134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51425c3e962e4421cab44e79c59dd23b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plantText: {fileID: 2021694405}
 --- !u!1 &1551315875
 GameObject:
   m_ObjectHideFlags: 0
