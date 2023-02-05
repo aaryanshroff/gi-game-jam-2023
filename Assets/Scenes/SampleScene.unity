@@ -3032,18 +3032,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!114 &1354829137
 MonoBehaviour:
-=======
 --- !u!1 &1634009326
 GameObject:
->>>>>>> e9c5135a479bc83ab13752c9f23f2436ce9b3955
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1354829134}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3055,7 +3051,6 @@ GameObject:
   timerIsRunning: 0
 --- !u!61 &1354829138
 BoxCollider2D:
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1634009327}
@@ -3070,12 +3065,10 @@ BoxCollider2D:
   m_IsActive: 1
 --- !u!4 &1634009327
 Transform:
->>>>>>> e9c5135a479bc83ab13752c9f23f2436ce9b3955
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1354829134}
   m_Enabled: 1
   m_Density: 1
@@ -3096,7 +3089,6 @@ Transform:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
-=======
   m_GameObject: {fileID: 1634009326}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -9313,4 +9305,3 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
->>>>>>> e9c5135a479bc83ab13752c9f23f2436ce9b3955
